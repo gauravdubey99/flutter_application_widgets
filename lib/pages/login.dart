@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_widgets/widgets/email.dart';
+import 'package:flutter_application_widgets/widgets/password.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -18,8 +19,8 @@ class _LoginPageState extends State<LoginPage> {
           EmailInput(
             emailCallback: (email) {},
           ),
-          EmailInput(
-            emailCallback: (email) {},
+          PasswordInput(
+            passwordCallback: (password) {},
           )
         ],
       ),
