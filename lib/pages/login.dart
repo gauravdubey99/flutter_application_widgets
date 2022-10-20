@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_widgets/widgets/my_button.dart';
 import 'package:flutter_application_widgets/widgets/email.dart';
 import 'package:flutter_application_widgets/widgets/password.dart';
 
@@ -21,7 +22,8 @@ class _LoginPageState extends State<LoginPage> {
           ),
           PasswordInput(
             passwordCallback: (password) {},
-          )
+          ),
+          MyButton(myButtonClicked: () {})
         ],
       ),
     );
