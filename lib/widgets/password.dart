@@ -38,6 +38,9 @@ class _PasswordInputState extends State<PasswordInput> {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      obscureText: true,
+      autocorrect: false,
+      enableSuggestions: false,
       style: TextStyle(
           color: isValidPasswordOrEmpty
               ? Colors.blue.shade600
